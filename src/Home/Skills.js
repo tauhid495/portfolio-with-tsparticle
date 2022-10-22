@@ -11,8 +11,7 @@ const Skills = () => {
             <div className='bg-secondary bg-cover w-full my-7'>
                 <div className='pl-3'>
                     <p className='z-10 text-primary text-xl md:text-3xl relative top-10 md:top-16 drop-shadow-md font-semibold '>Skills</p>
-                    <p data-aos="slide-right"
-                        className='text-4xl md:text-6xl font-semibold text-gray-700'>My Skills</p>
+                    <p className='text-4xl md:text-6xl font-semibold text-gray-700'>My Skills</p>
                 </div>
 
                 {/* content */}

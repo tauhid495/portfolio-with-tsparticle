@@ -9,9 +9,8 @@ const Projects = () => {
             <div className='bg-secondary bg-cover w-full mb-7'>
                 <div className='pl-3'>
                     <p className='z-10 text-primary text-xl md:text-3xl relative top-10 md:top-16 drop-shadow-md font-semibold '>Projects</p>
-                    <p data-aos="slide-right"
-                        className='hidden md:block text-4xl md:text-6xl font-semibold text-gray-700'>My Projects</p>
-                    <p className='block md:hidden text-4xl md:text-6xl font-semibold text-gray-700'>My Projects</p>
+                    <p className='text-4xl md:text-6xl font-semibold text-gray-700'>My Projects</p>
+
                 </div>
 
                 {/* content */}

@@ -7,13 +7,13 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <Link
-                style={{ color: match ? "#FFC107" : "" }}
+                style={{ color: match ? "#ffc40c" : "" }}
                 to={to}
                 {...props}
             >
                 {children}
             </Link>
-            {/* {match && " (active)"} */}
+            {/* {match && "(active)"} */}
         </div>
     );
 }

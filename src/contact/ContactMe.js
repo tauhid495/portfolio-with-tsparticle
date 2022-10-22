@@ -35,7 +35,7 @@ const ContactMe = () => {
                     <p className='text-center text-xl'>Cornel Hat, Chattagram, Bangladesh. </p>
 
                     <p><MdMarkEmailUnread data-aos="fade-in" className='w-12 h-12 text-primary block mx-auto mt-7' /> </p>
-                    <p className='text-center text-xl'>shahidul.islam.1691.bd@gmail.com
+                    <p className='text-center md:text-xl'>shahidul.islam.1691.bd@gmail.com
                         <br /> tauhid495@gmail.com </p>
 
                     <p><MdWifiCalling3 data-aos="fade-in" className='w-12 h-12 text-primary block mx-auto mt-7' /> </p>

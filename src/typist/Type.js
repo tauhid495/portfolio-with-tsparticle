@@ -9,12 +9,12 @@ const Type = () => {
             <p className='text-xl md:text-2xl'>I am a </p>
             <Typed className='text-primary font-semibold'
                 strings={[
-                    " Web Developer",
+                    " Font End Web Developer",
                     " Sales Team Leader ",
                     " Pathological Lab Manager",
                 ]}
-                typeSpeed={150}
-                backSpeed={100}
+                typeSpeed={70}
+                backSpeed={50}
                 loop
             />
         </div>
