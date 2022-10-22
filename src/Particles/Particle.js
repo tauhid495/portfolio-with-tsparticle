@@ -59,6 +59,7 @@ const Particle = () => {
             color: {
               value: "#008b8b",
             },
+
             links: {
               color: "#9370db",
               distance: 70,
@@ -73,9 +74,9 @@ const Particle = () => {
               directions: "none",
               enable: true,
               outModes: {
-                default: "bounce",
+                default: "out",
               },
-              random: false,
+              random: true,
               speed: .3,
               straight: false,
             },
@@ -87,7 +88,12 @@ const Particle = () => {
               value: 180,
             },
             opacity: {
-              value: 0.5,
+              animation: {
+                enable: true,
+                speed: 1,
+                sync: false,
+              },
+              value: { min: 0, max: 1 },
             },
             shape: {
               type: "circle",
